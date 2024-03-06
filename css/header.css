@@ -1,0 +1,130 @@
+.header {
+  padding-top: 30px;
+  background-image: url("./../img/header/header-bg.jpg");
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.666);
+  z-index: 2;
+}
+
+.header__top {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+}
+
+.header__logo {
+  color: #fff;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.header__logo span {
+  color: rgb(239, 75, 11);
+}
+
+.headrer__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__link {
+  color: rgb(224, 212, 212);
+  font-size: 16px;
+}
+
+.header__top-button {
+  font-size: 14px;
+  padding: 10px 20px;
+  color: rgb(239, 75, 11);
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.header__main {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.header__main-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+
+.header__main-title {
+  color: rgb(224, 212, 212);
+  margin-bottom: 20px;
+}
+
+.header__main-text {
+  width: 600px;
+  color: rgb(224, 212, 212);
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.header__main-list {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+
+.header__main-item {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  align-items: center;
+}
+
+.header__main-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(224, 212, 212);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.header__main-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.header__main-names {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+}
+
+.header__main-names-1 {
+  color: gray;
+}
+
+.header__main-names-2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.header__main-content__item {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=header.css.map */

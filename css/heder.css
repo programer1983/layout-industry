@@ -1,0 +1,20 @@
+.header {
+  padding: 30px 0 100px 0;
+  background-image: url("./../img/header/header-bg.jpg");
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__main-list {
+  display: flex;
+  align-items: center;
+}
+
+.header__main-icon {
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=heder.css.map */
